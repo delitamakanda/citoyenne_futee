@@ -49,7 +49,7 @@ PROJECT_APPS = [
 
 INSTALLED_APPS += PROJECT_APPS
 
-# AUTH_USER_MODEL = 'apps.CustomUser'
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
