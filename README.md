@@ -96,4 +96,4 @@ http://localhost:8000/api/docs/
 * Intégration CI/CD GitHub Actions
 
 ## 📜 Licence
-MIT © 2025 - PCitoyen·ne & Futé·e
+MIT © 2025 - Citoyen·ne & Futé·e
