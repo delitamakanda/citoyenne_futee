@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'drf_spectacular',
+    'ckeditor',
 ]
 
 PROJECT_APPS = [
@@ -48,6 +49,7 @@ PROJECT_APPS = [
     'apps.gamification',
     'apps.lessons',
     'apps.progress',
+    'apps.leaderboard',
 ]
 
 INSTALLED_APPS += PROJECT_APPS
@@ -165,6 +167,10 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    # pagination
+    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 20,
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
 }
 
 # Simple JWT
@@ -193,4 +199,15 @@ SPECTACULAR_SETTINGS = {
     'VERSION': '1.0.0',
     'SERVE_STATIC': True,
     'SERVE_INCLUDE_SCHEMA': False,
+}
+
+
+# ckeditor
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Full',
+        'height': 300,
+        'width': '100%',
+    },
 }
