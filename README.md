@@ -92,8 +92,6 @@ http://localhost:8000/api/docs/
 ```
 
 ## ✅ À venir
-* Intégration du CMS Wagtail pour l’édition des contenus éducatifs 
-* Endpoint public d’exploration des leçons 
 * Intégration CI/CD GitHub Actions
 
 ## 📜 Licence
