@@ -74,9 +74,10 @@ python manage.py runserver
 ## 🔐 Authentification
 * JWT (via djangorestframework-simplejwt)
 * Endpoints :
-  * `/api/token/` (login)
-  * `/api/token/refresh/ `
-  * `/api/auth/register/`
+  * `/api/accounts/token/` (login)
+  * `/api/accounts/token/refresh/ `
+  * `/api/account/token/verify/`
+  * `/api/accounts/register/`
 
 ## 🧪 Tests
 ```bash
