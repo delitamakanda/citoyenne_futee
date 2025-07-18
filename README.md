@@ -16,9 +16,8 @@ Plateforme pédagogique en Django REST Framework pour développer la culture fin
 
 - **Django 5.x**
 - **Django REST Framework**
-- **Wagtail (CMS leçons, facultatif)**
+- **CKeditor (CMS leçons, facultatif)**
 - **JWT pour l’authentification**
-- **Redis (XP / classements)**
 
 ---
 
@@ -28,6 +27,7 @@ apps/
 ├── accounts/ ← Authentification, rôles utilisateurs
 ├── lessons/ ← Leçons, questions, choix
 ├── progress/ ← Suivi de progression des utilisateurs
+├── leaderboard/ ← Classement des utilisateurs
 ├── gamification/ ← Badges, XP, classements
 ├── feedback/ ← Retours utilisateurs
 ├── common/ ← Mixins, enums, utils
