@@ -1,8 +1,9 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 class Lesson(models.Model):
     title = models.CharField(max_length=255)
-    content = models.TextField()
+    content = RichTextField()
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
     is_active = models.BooleanField(default=True)
     
