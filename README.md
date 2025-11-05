@@ -1,5 +1,5 @@
 # 🧠 Citoyen·ne & Futé·e – API Restful
-
+[![Django CI](https://github.com/delitamakanda/citoyenne_futee/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/delitamakanda/citoyenne_futee/actions/workflows/ci.yml)
 Plateforme pédagogique en Django REST Framework pour développer la culture financière et citoyenne des jeunes (8–18 ans).
 
 ---
